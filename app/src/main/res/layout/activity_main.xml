@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgcolor"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <ImageButton
+      android:id="@+id/whatbtn"
+      android:layout_centerInParent="true"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:src="@drawable/what"
+      android:onClick="gotoWhats"
+      />
+  <ImageButton
+      android:id="@+id/mxbtn"
+      android:layout_below="@+id/whatbtn"
+      android:layout_centerInParent="true"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:src="@drawable/mx"
+      android:onClick="gotoMx"
+      />
+  <ImageButton
+      android:id="@+id/instabtn"
+      android:layout_below="@+id/mxbtn"
+      android:layout_width="100dp"
+      android:layout_centerInParent="true"
+      android:layout_height="100dp"
+      android:src="@drawable/instagram"
+      android:onClick="gotoInsta"
+      />
+
+  <ImageButton
+      android:id="@+id/youtube"
+      android:layout_centerInParent="true"
+      android:layout_below="@+id/instabtn"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:src="@drawable/youtube"
+      android:onClick="gotoYoutube"
+      />
+
+
+</RelativeLayout>
